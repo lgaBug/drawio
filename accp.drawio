@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T07:54:39.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="TfFdlpj0X2HqwkgO5cHf" version="17.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-09T08:09:47.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="cFk6ASF_UOE5gU-Oxk9m" version="17.4.6" type="github" pages="3">
   <diagram id="Jl5-833vMoTasqNsfF81" name="原解密过程">
-    <mxGraphModel dx="1365" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1896" dy="1119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,7 +128,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="优化密码加密" id="MklcK-eCK0yKcFFZ0AR5">
-    <mxGraphModel dx="1862" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="eYHL1WIFs0YqZ5u6t1xu-0" />
         <mxCell id="eYHL1WIFs0YqZ5u6t1xu-1" parent="eYHL1WIFs0YqZ5u6t1xu-0" />
@@ -215,8 +215,8 @@
             <mxPoint x="610" y="773" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eYHL1WIFs0YqZ5u6t1xu-17" value="5.未开启密码控件开关/&lt;b&gt;&lt;font color=&quot;#ea6b66&quot;&gt;加密密码&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="eYHL1WIFs0YqZ5u6t1xu-1">
-          <mxGeometry x="591" y="708" width="180" height="20" as="geometry" />
+        <mxCell id="eYHL1WIFs0YqZ5u6t1xu-17" value="5.未开启密码控件开关/&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ea6b66&quot;&gt;加密密码且random_key为空&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="eYHL1WIFs0YqZ5u6t1xu-1">
+          <mxGeometry x="596" y="701" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eYHL1WIFs0YqZ5u6t1xu-18" value="选择&lt;br&gt;decrypt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="eYHL1WIFs0YqZ5u6t1xu-1">
           <mxGeometry x="590" y="818" width="360" height="180" as="geometry" />
@@ -265,14 +265,14 @@
             <mxPoint x="386" y="412" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XTas_HxUO6MgLOkLOGfj-2" value="2.1如果密码控件选择的枚举&lt;br&gt;值为&quot;&lt;b&gt;加密密码&lt;/b&gt;&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="eYHL1WIFs0YqZ5u6t1xu-1">
-          <mxGeometry x="380" y="341" width="160" height="30" as="geometry" />
+        <mxCell id="XTas_HxUO6MgLOkLOGfj-2" value="2.1如果密码控件选择的枚举&lt;br&gt;值为&quot;&lt;b&gt;加密密码&lt;/b&gt;&quot; 且 &lt;b&gt;random_key&lt;/b&gt;为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="eYHL1WIFs0YqZ5u6t1xu-1">
+          <mxGeometry x="367" y="341" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="GgyaEPtQdlrnhv2LjOPZ" name="通知子系统通知流程">
-    <mxGraphModel dx="2858" dy="2288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2310" dy="2060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
