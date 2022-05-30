@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T02:28:14.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="G92ztusyRk5jRoMhv_kR" version="18.0.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-30T02:25:44.573Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="3eiuJvbkX_SVNgGVaAhV" version="18.1.3" type="github" pages="8">
   <diagram id="Jl5-833vMoTasqNsfF81" name="原解密过程">
-    <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -812,6 +812,61 @@
         </mxCell>
         <mxCell id="BgtawR-IbgFczMfKQF-A-7" value="达到最大重试次数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="150" y="500" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="D31mKkbZ-VWmN2fRTPHw" name="RocketMQ Producer">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="GqcfZ-WiPysiGkP5TFEi-1" target="GqcfZ-WiPysiGkP5TFEi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="GqcfZ-WiPysiGkP5TFEi-7" target="GqcfZ-WiPysiGkP5TFEi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-1" value="&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;MQProducer&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-3" value="&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;MQAdmin&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="GqcfZ-WiPysiGkP5TFEi-7" target="GqcfZ-WiPysiGkP5TFEi-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-7" value="DefaultMQProducer" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="GqcfZ-WiPysiGkP5TFEi-11" target="GqcfZ-WiPysiGkP5TFEi-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-11" value="DefaultMQProducer" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="450" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="GqcfZ-WiPysiGkP5TFEi-13" target="GqcfZ-WiPysiGkP5TFEi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-13" value="定义Producer对外提供的接口" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="GqcfZ-WiPysiGkP5TFEi-14" target="GqcfZ-WiPysiGkP5TFEi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-14" value="元数据管理接口" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="510" y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=160;exitDy=42.5;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="GqcfZ-WiPysiGkP5TFEi-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-15" value="Producer入口类" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="475" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GqcfZ-WiPysiGkP5TFEi-16" value="Producer的主要实现代码都在这里" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="770" y="475" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
